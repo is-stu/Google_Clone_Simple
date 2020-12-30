@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: small;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-right-section {
+  width: 250px;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-right-section li a {
+  color: black;
+}
+
+.nav-right-section li a:hover {
+  text-decoration: underline;
+  color: gray;
+}
+
+nav .nav-right-section .menu-icon {
+  background-image: url('https://static.thenounproject.com/png/756729-200.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.nav-right-section img {
+  border-radius: 50%;
+}
+
+main {
+  margin-top: 110px;
+  text-align: center;
+}
+
+.main-logo img {
+  width: 280px;
+}
+
+.main-input {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+.main-input-container {
+  width: 525px;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.main-input-container input {
+  width: 440px;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding-left: 12px;
+}
+
+.main-input-container:hover {
+  box-shadow: 0 1px 6px 0 #20212447;
+}
+
+.search-icon {
+  background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 18px;
+  height: 18px;
+}
+
+.mic-icon {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.main-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buscar-button {
+  padding-right: 10px;
+}
+
+.main-buttons button {
+  height: 36px;
+  width: 154px;
+  background-color: #f8f9fa;
+  border: none;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.main-buttons button:hover {
+  border: 1px solid #dadce0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  font-size: 15px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+  display: flex;
+  padding-left: 0;
+}
+
+.footer-right {
+  justify-content: flex-end;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+    cursor: pointer;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
